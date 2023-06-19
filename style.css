@@ -27,7 +27,9 @@ h1.title{
 p.description{
     font-weight: 100;
     font-size: 1.2rem;
-    margin-top: -20px;
+    margin-top: -30px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'Nunito';
 }
 
@@ -45,15 +47,15 @@ div.social i{
 div.meet{
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Nunito', sans-serif;
     /* display: inline; */
 }
 
 div.meet h1{
-    font-family: 'Nunito', sans-serif;
     font-weight:600;
     font-size: 1rem;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 div.meet button {
@@ -67,7 +69,7 @@ div.meet button {
     border: 1px solid transparent;
     padding: 6px 12px;
     font-size: 1rem;
-    border-radius: .25rem;
+    border-radius: .75rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     color: #0d6efd;
     border-color: #0d6efd;
@@ -100,7 +102,7 @@ div.links button {
     border: 1px solid transparent;
     padding: 6px 12px;
     font-size: 16px;
-    border-radius: .25rem;
+    border-radius: .75rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
