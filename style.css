@@ -39,11 +39,18 @@ p.description{
 div.social{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-decoration: none;
 }
 
 div.social i{
     margin-left: 2%;
     margin-right: 2%;
+    color: #313131;
+}
+div.social i:hover{
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #ffffff;
 }
 
 
