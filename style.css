@@ -2,11 +2,14 @@
     font-family: LostInSpace;
     src: url(fonts/Lost\ In\ Space\ Regular.ttf);
 }
-  
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
     align-content: center;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
 }
 
 img.headshot{
@@ -26,4 +29,96 @@ p.description{
     font-size: 1.2rem;
     margin-top: -20px;
     font-family: 'Nunito';
+}
+
+div.social{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+div.social i{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+div.meet{
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline;
+}
+
+div.meet h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+div.meet button {
+    
+    display: inline-block;
+    
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+div.meet button:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+div.links {
+    display:flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div.links button {
+    margin-top: 20px;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+div.links button:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-top: 50px;
 }
