@@ -61,6 +61,8 @@ div.meet h1{
     margin-right: 10px;
 }
 
+
+
 div.meet button {
     cursor: pointer;
     outline: 0;
@@ -122,4 +124,41 @@ hr {
 
 footer {
     padding-top: 50px;
+}
+
+/* mobile */
+@media all and (max-width: 600px) {
+    img.headshot{
+        height: 6em;
+    }
+    h1.title {
+        font-size: 1.5rem;
+    }
+    h1.title span {
+        font-size: 2.5rem;
+    }
+    h1.title span::after{
+        content: "\a";
+        white-space: pre;
+    }
+    p.description{
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    div.meet h1{
+        font: weight 500;
+        font-size: 1rem;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    div.links {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    footer{
+        font-size: .7rem;
+        color: #313131;
+        margin-bottom: 5px;
+    }
 }
